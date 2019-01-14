@@ -502,7 +502,7 @@ head(CIL_CKY_Tobacco_complete_wide)
 CIL_CKY_Tobacco_complete_wide = is.na(CIL_CKY_Tobacco_complete_wide)
 ## Now we are summing the NAs across giving us the timepoints each person has an NA
 CIL_CKY_Tobacco_complete_wide = rowSums(CIL_CKY_Tobacco_complete_wide)
-
+### Adding something
 
 CIL_CKY_Tobacco_complete_wide = 8-CIL_CKY_Tobacco_complete_wide
 describe.factor(CIL_CKY_Tobacco_complete_wide, decr.order = FALSE)
